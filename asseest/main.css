@@ -20,7 +20,23 @@ body{
    background-position: center -60px ;
 }
 
-.about{
+.about,.portfolio{
 
     background-image: url(./img/light_dot.jpg);
+}
+
+.portfolio .nav-tabs .nav-item.show .nav-link,
+ .portfolio .nav-tabs .nav-link.active {
+    color: var(--primary);
+}
+.portfolio  .nav-link {
+
+    color: black;
+}
+.portfolio .nav-tabs .nav-link {
+
+border: none;
+}
+.portfolio .nav-tabs{
+border-bottom: none;
 }
